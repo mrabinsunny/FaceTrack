@@ -1,0 +1,32 @@
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 175px; 
+    height: auto;
+}
+
+.container {
+    margin-top: 100px; /* Adjust the value as needed to move the content downwards */
+    padding: 0 25px; /* Add padding to the left and right sides */
+}
+
+h1 {
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px; /* Increase the font size for paragraphs */
+    margin-bottom: 30px;
+}

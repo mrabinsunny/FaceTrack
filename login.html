@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="loginstyles.css"> 
+</head>
+<body>
+    <img src="logo.png" alt="Logo" class="logo">
+    <button class="about-button" onclick="redirectToAbout()">About Us</button>
+    <img src="logoonly.png" class="logo-only" alt="Logo description">
+
+    <div class="container">
+        <h2 style="color:#ffffff">Log in to FaceTrack</h2>
+        <div class="input-group" style="grid-row: 2;">
+            <input type="text" id="username" name="username" required placeholder="Username">
+        </div>
+        <div class="input-group" style="grid-row: 3;">
+            <input type="password" id="password" name="password" required placeholder="Password">
+        </div>
+        <button type="submit" onclick="validateLogin()">Log in</button>
+    </div>
+
+    <script src="loginscripts.js"></script>
+</body>
+</html>

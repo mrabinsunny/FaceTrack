@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    width: 20rem; 
+    height: 16rem; 
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    position: relative;
+    
+}
+
+h2 {
+    text-align: center;
+    grid-column: 1 / -1;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-weight: bold;
+}
+
+.input-group input {
+    padding: 8px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+.input-group input[type="password"] {
+    margin-bottom: 20px; /* Adjust the margin-bottom as needed */
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(8,102,255);
+    color: white;
+    cursor: pointer;
+    grid-row: 4;    
+}
+
+button[type="submit"]:hover{
+    opacity: 0.6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-button {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    background-color: rgb(8,102,255);
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about-button:hover{
+    opacity: 0.6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    left: 15px;
+    width: 175px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.logo-only {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

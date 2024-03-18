@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 500px
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.login-button,
+.signup-button {
+    display: inline-block;
+    width: 90px;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+}
+
+.login-button{
+    background-color: rgb(8,102,255);
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover{
+    opacity: 0.6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-button {
+    margin-left: 20px; 
+    background-color: rgb(66,183,42);
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-button:hover{
+    opacity: 0.6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-button {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    background-color: rgb(8,102,255);
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about-button:hover{
+    opacity: 0.6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
