@@ -12,3 +12,5 @@ function redirectToAbout() {
     }, 800);
 }
 
+
+
