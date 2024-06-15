@@ -15,9 +15,8 @@ body {
     width: 20rem; 
     height: 16rem; 
     padding: 20px;
-    background: rgba(255, 255, 255, 0.8);
     border-radius: 50px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 1fr);
@@ -105,6 +104,19 @@ button[type="submit"]:hover{
     opacity: 0;
     transition: opacity 1s ease;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
